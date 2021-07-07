@@ -17,7 +17,7 @@
 
 - name: Install esl-erlang
   apt:
-    deb: /ubuntu/esl-erlang_24.0.2-1~ubuntu~bionic_amd64.deb
+    deb: /home/ubuntu/esl-erlang_24.0.2-1~ubuntu~bionic_amd64.deb
 
 - name: Download erlang solutions
   get_url:
